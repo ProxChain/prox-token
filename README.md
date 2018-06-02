@@ -1,5 +1,5 @@
 # PROXchain-Presale-Smart-Contracts
-Public Repository for Proof Smart Contracts
+Public Repository for PROXcPROXchain Smart Contracts
 
 
 
@@ -12,7 +12,7 @@ The Crowdsale contract is inspired by the open-zeppelin `Crowdsale` contract wit
 
 
 ### Presale
-75,000,000,000 tokens will be issued at the price of 0.05 ether per token. This represents a 75% discount to the Proof ICO which will start from July 1st.
+75,000,000,000 tokens will be issued at the price of 0.000009 ether per token. This represents a 75% discount to the Proof ICO which will start from July 1st.
 
 ### Development and Testing Environment Setup
 
