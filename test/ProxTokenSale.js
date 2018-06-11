@@ -6,8 +6,8 @@ contract('ProxTokenSale', function(accounts) {
   var tokenSaleInstance;
   var admin = accounts[0];
   var buyer = accounts[1];
-  var tokenPrice = 5000000000000000; // in wei
-  var tokensAvailable = 75000000000;
+  var tokenPrice = 9000000000000; // in wei
+  var tokensAvailable = 7000000000;
   var numberOfTokens;
 
   it('initializes the contract with the correct values', function() {
@@ -79,7 +79,7 @@ contract('ProxTokenSale', function(accounts) {
     }).then(function(receipt) {
       return tokenInstance.balanceOf(admin);
     }).then(function(balance) {
-      assert.equal(balance.toNumber(), 99999999990, 'returns all unsold prox tokens to admin');
+      assert.equal(balance.toNumber(), 9999999990, 'returns all unsold prox tokens to admin');
       // Check that the contract has no balance
       balance = web3.eth.getBalance(tokenSaleInstance.address)
       assert.equal(balance.toNumber(), 0);
